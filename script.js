@@ -246,7 +246,7 @@ const translations = {
         synth_loc: "Mobility:",
         synth_loc_val: "France & International Mobility",
         synth_cv_btn: "View My Resume (PDF)",
-        synth_btn: "Direct Email Contact",
+        synth_btn: "Email Contact",
         exp_tag: "<i class=\"fa-solid fa-timeline\"></i> Timeline",
         exp_title: "Professional Experience & Projects",
         exp_desc: "Comprehensive timeline of engineering projects and work experience.",
