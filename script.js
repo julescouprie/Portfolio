@@ -88,32 +88,32 @@ const translations = {
         nav_skills: "Compétences",
         nav_personal: "Personnel",
         nav_contact: "Contact",
-        hero_role: "Recherche d'un stage ingénieur en Aérodynamisme & CFD",
+        hero_role: "Recherche d'un stage de 4 mois en Aérodynamisme & CFD",
         stat_estaca: "Cursus Ingénieur Aéronautique",
-        stat_dur_val: "Césure 1 An",
-        stat_duration: "À partir de Juillet 2027 (Flexible)",
+        stat_dur_val: "Stage 4 Mois",
+        stat_duration: "Dès Mai 2027",
         stat_loc_val: "Mobilité",
-        stat_location: "France & Étranger",
+        stat_location: "France & International",
         btn_contact: "Me Contacter",
         btn_cv: "Mon CV / Resume (PDF)",
         about_tag: "<i class=\"fa-solid fa-user-astronaut\"></i> Présentation",
         about_title: "Présentation",
         about_heading: "Mon Profil & Approche",
-        about_p1: "Élève ingénieur en 4ᵉ année en Ingénierie Aéronautique à l'ESTACA, je suis à la recherche d'un stage de césure de 1 an en Aérodynamique & CFD dans le sport automobile et les industries de pointe, à partir de juillet 2027.",
-        about_p2: "Passionné par le sport automobile, je suis captivé par cet univers exigeant où se mêlent ingénierie de pointe, esprit de compétition et recherche continue de la performance.",
-        about_p3: "Rigoureux et méthodique, j'aborde les défis techniques avec une approche scientifique structurée. Je souhaite mettre ma détermination et mon sens du travail en équipe au service d'une écurie ou d'un bureau d'études ambitieux.",
+        about_p1: "Élève ingénieur en 4ᵉ année en Ingénierie Aéronautique à l'ESTACA, spécialisé en CFD, simulation FSI, maillage dynamique et optimisation aérodynamique. Je recherche activement un stage de 4 mois dans le domaine de l'aérodynamisme appliqué aux technologies de pointe et à la haute performance, disponible dès mai 2027.",
+        about_p2: "Passionné par l'aérodynamique et les environnements de haute performance, je suis captivé par ces univers d'exigence où se mêlent ingénierie de pointe, rigueur scientifique et recherche continue du gain marginal.",
+        about_p3: "Rigoureux et méthodique, j'aborde les défis techniques avec une approche scientifique structurée. Je souhaite mettre ma détermination et mon sens du travail en équipe au service d'une équipe d'ingénierie ou d'un bureau d'études ambitieux.",
         synth_title: "Fiche Synthétique",
         synth_name: "Nom :",
         synth_school: "Formation :",
         synth_school_val: "ESTACA (4ème année — Ingénierie Aéronautique)",
         synth_target: "Stage recherché :",
-        synth_target_val: "Aérodynamisme & CFD (Motorsport)",
+        synth_target_val: "Stage Aérodynamique & Optimisation CFD",
         synth_dates: "Durée & Période :",
-        synth_dates_val: "Césure de 1 an, à partir de juillet 2027 (dates flexibles)",
+        synth_dates_val: "Stage de 4 mois, dès mai 2027",
         synth_lang: "Anglais :",
         synth_loc: "Mobilité :",
         synth_loc_val: "France & International",
-        synth_cv_btn: "Consulter mon CV / Resume (PDF)",
+        synth_cv_btn: "Consulter mon CV (PDF)",
         synth_btn: "Contact Direct (Email)",
         exp_tag: "<i class=\"fa-solid fa-timeline\"></i> Parcours",
         exp_title: "Expériences Professionnelles & Projets",
@@ -125,41 +125,43 @@ const translations = {
         filter_perso_asso: "Projets associatifs & personnels",
         
         // Timeline Item 1: F1 Front Wing
-        nb1_date: "<i class=\"fa-regular fa-calendar\"></i> Depuis Juin 2026",
+        nb1_date: "<i class=\"fa-regular fa-calendar\"></i> Mai 2026 - En cours",
         nb1_title: "Conception et étude CFD d'un aileron avant de F1",
-        nb1_sub: "Projet d'Ingénierie F1 • Jules COUPRIE & Tom CORBETT",
-        nb1_summary: "Conception CAO 3DEXPERIENCE et étude CFD (ANSYS Fluent) d'un aileron avant multi-éléments F1. Développement d'un aéro-mapping par méthode de krigeage (modèle d'interpolation et de prédictibilité) : automatisation de la chaîne de calculs CFD d'entrée, réduction drastique du coût computationnel, validation et réentraînement itératif du métamodèle. Optimisation de forme et analyse de sensibilité des paramètres clés (cambrure, incidence, front ride height, interactions multi-éléments).",
+        nb1_sub: "Projet Personnel d'Ingénierie Aérodynamique • Jules COUPRIE & Tom CORBETT",
+        nb1_summary: `<p class="preview-lead">Conception CAO 3DEXPERIENCE et étude CFD sous ANSYS Fluent (k-ω SST, y+ ≈ 1) d'un aileron avant multi-éléments s'appuyant sur la réglementation FIA. Déploiement d'un aéro-mapping par krigeage pour l'optimisation des formes aérodynamiques et la réduction des coûts de calcul, avec automatisation du workflow en Python.</p>
+<div class="preview-tech"><strong>Outils :</strong> 3DEXPERIENCE • ANSYS Fluent • Krigeage • Python</div>`,
         nb1_btn: "Voir le Dossier Technique F1",
 
         // Timeline Item 2: Prague
-        exp1_date: "<i class=\"fa-regular fa-calendar\"></i> Juillet à Août 2026",
-        exp1_title: "Chercheur en Aérodynamisme",
+        exp1_date: "<i class=\"fa-regular fa-calendar\"></i> Juin à Août 2026",
+        exp1_title: "Stagiaire en Recherche Aérodynamique",
         exp1_sub: "Université ČVUT de Prague (Laboratoire de recherche)",
-        exp1_desc: "Sujet : <em>Simulation and initial design of peristaltic pump</em>. Modélisation CFD interne, couplage fluide-structure (FSI) et remaillage dynamique sous ANSYS.",
+        exp1_desc: `<p class="preview-lead">Simulation numérique couplée fluide-structure bidirectionnelle (2-way FSI sous ANSYS Fluent & Mechanical via System Coupling) d'une pompe péristaltique. Résolution des contraintes de maillage dynamique sous fortes déformations et analyse des débits et reflux par scripts Python.</p>
+<div class="preview-tech"><strong>Outils :</strong> ANSYS Fluent & Mechanical • System Coupling • Dynamic Remeshing • Python</div>`,
         exp1_btn: "Voir le Dossier du Stage",
 
         // Timeline Item 3: HYCE
         exp2_date: "<i class=\"fa-regular fa-calendar\"></i> 2025 à Présent",
         exp2_title: "Projet HYCE",
-        exp2_sub: "Membre Pôle Système Embarqué & Responsable Communication",
-        exp2_desc: "Projet lié à l'association iDrogen au sein de l'ESTACA visant à rétrofiter un véhicule de course avec un moteur à combustion interne hydrogène, afin de réaliser le record du tour au Nürburgring dans notre catégorie.",
-        exp2_sec_line: "Également secrétaire de l'association iDrogen ESTACA : coordination des réunions et suivi des jalons de développement.",
+        exp2_sub: "Responsable Communication & Membre Pôle Système Embarqué",
+        exp2_desc: `<p class="preview-lead">Rétrofit d'un prototype de course en moteur à combustion hydrogène (iDrogen ESTACA) visant le record du tour au Nürburgring. Membre de l'équipe systèmes embarqués (modélisation SIMULINK / Simscape Fluids, conformité FIA Art. 266) et responsable de la communication.</p>
+<div class="preview-tech"><strong>Domaines :</strong> MATLAB / SIMULINK • Réglementation FIA H2 • Communication & Partenaires</div>`,
         exp2_btn: "Voir le Dossier Technique HYCE",
 
         // Timeline Item 4: UCAV
         nb2_date: "<i class=\"fa-regular fa-calendar\"></i> 2025 à 2026",
         nb2_title: "Dimensionnement, conception et performances d'un UCAV",
         nb2_sub: "Projet d'École ESTACA • Intervenants Thales & Dassault Aviation",
-        nb2_summary: "Dimensionnement global, modélisation CAO sous 3DEXPERIENCE et calculs de performances d'un UCAV furtif. Synthèse des leçons sur les compromis de furtivité, de centrage et d'autonomie.",
+        nb2_summary: `<p class="preview-lead">Projet de synthèse à l'ESTACA encadré par des intervenants de Thales et Dassault Aviation : dimensionnement global, modélisation surfacique 3DEXPERIENCE et calculs des performances en vol (polaires subsoniques à Mach 0.8, rayon d'action Breguet et compromis de stabilité) d'une aile volante UCAV.</p>
+<div class="preview-tech"><strong>Thèmes :</strong> 3DEXPERIENCE • Aérodynamique & Polaires • Dimensionnement UCAV</div>`,
         nb2_btn: "Voir le Dossier Technique UCAV",
 
         // Timeline Item 5: SD Aviation
         exp4_date: "<i class=\"fa-regular fa-calendar\"></i> Juillet 2024",
-        exp4_title: "Agent d'Opération & Suivi de Vol • SD Aviation",
+        exp4_title: "Opérateur de Vol • SD Aviation",
         exp4_sub: "La Roche-sur-Yon",
-        exp4_desc: "Immersion opérationnelle dans le secteur aéronautique et gestion de la conformité des avions.",
-        exp4_b1: "Gestion des plannings et préparation des vols (outils spécialisés Léon et ForeFlight).",
-        exp4_b2: "Création de matrices de conformité et rédaction de procédures de contrôle technique des aéronefs.",
+        exp4_desc: `<p class="preview-lead">Immersion opérationnelle en aviation d'affaires : préparation et suivi des vols via les outils Léon et ForeFlight, et contribution à la rédaction des matrices de conformité et procédures de contrôle technique des aéronefs.</p>
+<div class="preview-tech"><strong>Domaines :</strong> Opérations en vol • Léon / ForeFlight • Procédures de conformité</div>`,
 
         // Personal Section
         personal_tag: "<i class=\"fa-solid fa-compass\"></i> Personnel",
@@ -199,7 +201,7 @@ const translations = {
         // Contact Section & Footer
         contact_tag: "<i class=\"fa-solid fa-envelope-open-text\"></i> Contact",
         contact_title: "Discutons d'une Opportunité de Stage",
-        contact_desc: "Recherche active d'un stage de césure de 1 an à partir de juillet 2027 (dates flexibles). Prêt à échanger sur mes projets et ma candidature.",
+        contact_desc: "Recherche active d'un stage de 4 mois à partir de mai 2027. Prêt à échanger sur mes projets et ma candidature.",
         contact_direct: "Coordonnées Directes",
         c_email: "Email Professionnel",
         c_phone: "Téléphone",
@@ -220,10 +222,10 @@ const translations = {
         nav_skills: "Skills",
         nav_personal: "Personal",
         nav_contact: "Get In Touch",
-        hero_role: "Seeking an Industrial Placement in Aerodynamics & CFD",
+        hero_role: "Seeking a 4-Month Internship in Aerodynamics & CFD",
         stat_estaca: "Aeronautical Engineering",
-        stat_dur_val: "1-Year Industrial Placement",
-        stat_duration: "Starting July 2027 (Flexible)",
+        stat_dur_val: "4-Month Internship",
+        stat_duration: "From May 2027",
         stat_loc_val: "Mobility",
         stat_location: "France & Worldwide",
         btn_contact: "Contact Me",
@@ -231,22 +233,22 @@ const translations = {
         about_tag: "<i class=\"fa-solid fa-user-astronaut\"></i> Overview",
         about_title: "Overview",
         about_heading: "About Me & Approach",
-        about_p1: "As a Master's degree student in Aeronautical Engineering at ESTACA (4th year), I am seeking a 1-year industrial placement in Aerodynamics & CFD within motorsport and advanced engineering, starting in July 2027.",
-        about_p2: "Passionate about motorsport, I am captivated by this demanding field combining cutting-edge engineering, competitive spirit, and continuous search for performance.",
-        about_p3: "Rigorously methodical, I tackle technical challenges with a structured scientific approach. I aim to bring my determination and teamwork skills to an ambitious racing team or design office.",
+        about_p1: "As a 4th-year Aeronautical Engineering student at ESTACA, specialized in CFD, FSI simulation, dynamic meshing, and aerodynamic optimization, I am actively seeking a 4-month internship in Aerodynamics & CFD within high-performance engineering and advanced technologies, available from May 2027.",
+        about_p2: "Passionate about aerodynamics and high-performance engineering, I thrive in demanding environments combining cutting-edge engineering, scientific rigor, and the continuous pursuit of performance.",
+        about_p3: "Rigorously methodical, I tackle technical challenges with a structured scientific approach. I aim to bring my determination and teamwork skills to an ambitious engineering team or design office.",
         synth_title: "Key Details",
         synth_name: "Name:",
         synth_school: "Education:",
         synth_school_val: "ESTACA (Master's Degree in Aeronautical Engineering)",
         synth_target: "Seeking:",
-        synth_target_val: "Aerodynamics & CFD (Motorsport)",
+        synth_target_val: "Aerodynamics & CFD Optimization",
         synth_dates: "Duration & Timing:",
-        synth_dates_val: "1-Year Industrial Placement, starting in July 2027 (flexible dates)",
+        synth_dates_val: "4-Month Internship, from May 2027",
         synth_lang: "English:",
         synth_loc: "Mobility:",
         synth_loc_val: "France & International Mobility",
         synth_cv_btn: "View My Resume (PDF)",
-        synth_btn: "Email Contact",
+        synth_btn: "Direct Email Contact",
         exp_tag: "<i class=\"fa-solid fa-timeline\"></i> Timeline",
         exp_title: "Professional Experience & Projects",
         exp_desc: "Comprehensive timeline of engineering projects and work experience.",
@@ -257,41 +259,43 @@ const translations = {
         filter_perso_asso: "Projects & Student Associations",
 
         // Timeline Item 1: F1 Front Wing (EN)
-        nb1_date: "<i class=\"fa-regular fa-calendar\"></i> Since June 2026",
+        nb1_date: "<i class=\"fa-regular fa-calendar\"></i> May 2026 - Present",
         nb1_title: "F1 Front Wing Design & CFD Study",
-        nb1_sub: "F1 Engineering Project • Jules COUPRIE & Tom CORBETT",
-        nb1_summary: "3DEXPERIENCE CAD design and ANSYS Fluent CFD study of an F1 multi-element front wing. Development of an aerodynamic mapping using Kriging surrogate modeling (interpolation & predictability): automated CFD simulation pipeline for input data, drastic reduction in computational cost, iterative validation and retraining. Aerodynamic shape optimization and sensitivity analysis across key design parameters (camber, angle of attack, front ride height, multi-element slots).",
+        nb1_sub: "Aerodynamic Engineering Personal Project • Jules COUPRIE & Tom CORBETT",
+        nb1_summary: `<p class="preview-lead">3DEXPERIENCE CAD design and ANSYS Fluent CFD study (k-ω SST, y+ ≈ 1) of an FIA-inspired multi-element front wing. Deployment of a Kriging surrogate model for aerodynamic shape optimization and compute time reduction, supported by an automated Python workflow.</p>
+<div class="preview-tech"><strong>Tools:</strong> 3DEXPERIENCE • ANSYS Fluent • Kriging • Python</div>`,
         nb1_btn: "View F1 Technical Dossier",
 
         // Timeline Item 2: Prague (EN)
-        exp1_date: "<i class=\"fa-regular fa-calendar\"></i> July to August 2026",
+        exp1_date: "<i class=\"fa-regular fa-calendar\"></i> June to August 2026",
         exp1_title: "Aerodynamics Researcher Intern",
         exp1_sub: "ČVUT University of Prague (Research Laboratory)",
-        exp1_desc: "Subject: <em>Simulation and initial design of peristaltic pump</em>. Internal CFD modeling, Fluid-Structure Interaction (FSI), and dynamic remeshing with ANSYS.",
+        exp1_desc: `<p class="preview-lead">Two-way Fluid-Structure Interaction numerical simulation (2-way FSI with ANSYS Fluent & Mechanical via System Coupling) of a peristaltic pump. Handling dynamic remeshing challenges under severe deformation, with flow and backflow evaluation using Python scripts.</p>
+<div class="preview-tech"><strong>Tools:</strong> ANSYS Fluent & Mechanical • System Coupling • Dynamic Remeshing • Python</div>`,
         exp1_btn: "View Internship Dossier",
 
         // Timeline Item 3: HYCE (EN)
         exp2_date: "<i class=\"fa-regular fa-calendar\"></i> 2025 to Present",
         exp2_title: "HYCE Project",
-        exp2_sub: "Embedded Systems Member & Communication Lead",
-        exp2_desc: "Project associated with iDrogen ESTACA aiming to retrofit a race car with a hydrogen internal combustion engine to set the Nürburgring lap record in our category.",
-        exp2_sec_line: "Also Secretary of the iDrogen ESTACA association: coordinating team meetings and tracking key development milestones.",
+        exp2_sub: "Head of Communications & Embedded Systems Member",
+        exp2_desc: `<p class="preview-lead">Racing prototype retrofit converting an ICE car to hydrogen combustion (iDrogen ESTACA), targeting the Nürburgring lap record. Embedded systems team member (SIMULINK / Simscape Fluids modeling, FIA Art. 266 compliance) and Head of Communications.</p>
+<div class="preview-tech"><strong>Areas:</strong> MATLAB / SIMULINK • FIA H2 Regulations • Communications & Outreach</div>`,
         exp2_btn: "View HYCE Technical Dossier",
 
         // Timeline Item 4: UCAV (EN)
         nb2_date: "<i class=\"fa-regular fa-calendar\"></i> 2025 to 2026",
         nb2_title: "Sizing, CAD Design & Performances of a UCAV",
         nb2_sub: "ESTACA School Project • Guest Lectures from Thales & Dassault Aviation",
-        nb2_summary: "Global sizing study, 3DEXPERIENCE CAD modeling, and performance calculations for a flying-wing UCAV. Summary of lessons learned on stability, mass balance, and range trade-offs.",
+        nb2_summary: `<p class="preview-lead">ESTACA academic project mentored by Thales and Dassault Aviation engineers: global sizing, 3DEXPERIENCE surface modeling, and flight performance analysis (subsonic polars at Mach 0.8, Breguet range, stability trade-offs) for a flying-wing UCAV.</p>
+<div class="preview-tech"><strong>Topics:</strong> 3DEXPERIENCE • Aerodynamics & Polars • Sizing & Stability</div>`,
         nb2_btn: "View UCAV Technical Dossier",
 
         // Timeline Item 5: SD Aviation (EN)
         exp4_date: "<i class=\"fa-regular fa-calendar\"></i> July 2024",
-        exp4_title: "Flight Operations & Compliance • SD Aviation",
+        exp4_title: "Flight Operations Officer • SD Aviation",
         exp4_sub: "La Roche-sur-Yon, France",
-        exp4_desc: "Operational immersion in aviation operations and aircraft compliance management.",
-        exp4_b1: "Flight scheduling and preparation using Léon and ForeFlight tools.",
-        exp4_b2: "Creating compliance matrices and drafting aircraft technical inspection procedures.",
+        exp4_desc: `<p class="preview-lead">Operational immersion in business aviation: flight planning and monitoring using Léon and ForeFlight tools, and contribution to drafting aircraft compliance matrices and inspection procedures.</p>
+<div class="preview-tech"><strong>Areas:</strong> Flight Operations • Léon / ForeFlight • Airworthiness Compliance</div>`,
 
         // Personal Section (EN)
         personal_tag: "<i class=\"fa-solid fa-compass\"></i> Personal",
@@ -331,7 +335,7 @@ const translations = {
         // Contact Section & Footer (EN)
         contact_tag: "<i class=\"fa-solid fa-envelope-open-text\"></i> Contact",
         contact_title: "Let's Discuss an Internship Opportunity",
-        contact_desc: "Actively seeking a 1-year industrial placement starting in July 2027 (flexible dates). Ready to discuss my technical projects and application.",
+        contact_desc: "Actively seeking a 4-month internship starting in May 2027. Ready to discuss my technical projects and application.",
         contact_direct: "Direct Contact Information",
         c_email: "Professional Email",
         c_phone: "Phone Number",
@@ -379,6 +383,11 @@ function updateLanguageUI() {
                 elem.innerHTML = dict[key];
             }
         });
+    }
+
+    const synthCvLink = document.getElementById('synth-cv-link');
+    if (synthCvLink) {
+        synthCvLink.href = currentLang === 'fr' ? 'assets/cv_jules_couprie_fr.pdf' : 'assets/cv_jules_couprie_en.pdf';
     }
 }
 
@@ -464,45 +473,48 @@ const notebooksData = {
     1: {
         fr: {
             title: "Conception et étude CFD d'un aileron avant de F1",
-            subtitle: "Projet d'Ingénierie Aérodynamique en Duo (Jules COUPRIE & Tom CORBETT)",
+            subtitle: "Projet Personnel d'Ingénierie Aérodynamique (Mai 2026 - En cours)",
             badgeTag: "DOSSIER TECHNIQUE AILERON AVANT F1",
             isCustomF1Layout: true,
             
-            generalPres: "Projet d'ingénierie aérodynamique mené en collaboration avec Tom CORBETT (élève ingénieur ESTACA, expérience chez Williams F1 Racing).",
-
-            mentorsText: "Projet développé sous l'encadrement technique de Louis GUIDET (Aérodynamicien chez Alpine F1) et avec le soutien de professeurs experts de l'ONERA (Office National d'Études et de Recherches Aéronautiques).",
+            generalPres: "Projet d'ingénierie aérodynamique mené en binôme avec Tom CORBETT (élève ingénieur ESTACA, expérience chez Williams F1 Racing), avec l'appui technique de Louis GUIDET (Aérodynamicien chez Alpine F1 Team) et le soutien d'enseignants-chercheurs de l'ONERA et de l'ESTACA. Le travail s'appuie sur la réglementation technique FIA Formule 1 et les démarches appliquées en bureau d'études, tout en conservant une liberté d'exploration sur les concepts aérodynamiques.",
 
             objectivesBullets: [
-                "Comprendre en profondeur les phénomènes aérodynamiques complexes (CFD) appliqués à un aileron avant multi-éléments de Formule 1.",
-                "Développer un aéro-mapping complet via un métamodèle de substitution par krigeage (Gaussian Process Regression) pour interpoler et prédire les performances.",
-                "Automatiser la chaîne de calculs (CAO 3DX paramétrique, maillage automatisé et simulations d'entrée sous ANSYS Fluent) pour alimenter le modèle d'interpolation de manière autonome.",
-                "Valider les prédictions du métamodèle face à des calculs de contrôle et réentraîner itérativement la méthode pour converger vers des géométries optimisées.",
-                "Quantifier l'impact et la sensibilité relative des paramètres clés étudiés (cambrure, angle d'incidence, front ride height, interactions multi-éléments).",
-                "Assimiler la démarche scientifique, la structuration de projet et les contraintes réglementaires FIA appliquées en écurie de Formule 1."
+                "Analyser en profondeur les phénomènes aérodynamiques complexes régissant un aileron avant multi-éléments moderne (modèle k-ω SST, raffinement couche limite y+ ≈ 1).",
+                "Développer une modélisation CAO paramétrique sous 3DEXPERIENCE et mener des simulations CFD itératives sous ANSYS Fluent (du profil 2D mono-élément jusqu'à l'aileron 3D complet).",
+                "Mettre en place un aéro-mapping par méthode de krigeage (processus gaussiens) pour cartographier l'enveloppe, optimiser les formes et réduire drastiquement le nombre de simulations Navier-Stokes requises.",
+                "Automatiser l'ensemble de la chaîne numérique CAO-CFD-post-traitement via des scripts Python et une application sur-mesure de tracé de profils développée avec assistance d'IA."
             ],
 
-            aeroMappingPres: "Afin d'explorer un espace de conception géométrique et aérodynamique vaste sans subir le coût prohibitif de centaines de calculs CFD complets, nous mettons en place un aéro-mapping basé sur une méthode de krigeage. Ce métamodèle d'interpolation spatiale et de prédictibilité permet d'évaluer le comportement aérodynamique global tout en réduisant de manière conséquente le nombre de simulations Navier-Stokes requises.",
+            aeroMappingPres: "Pour explorer un large espace géométrique sans subir le coût de centaines de calculs Navier-Stokes 3D complets, nous déployons un métamodèle de krigeage (Gaussian Process Regression). Ce modèle d'interpolation spatiale et de prédiction évalue le comportement aéro global tout en réduisant considérablement le nombre de simulations requises.",
 
             aeroMappingBullets: [
-                "Réduction drastique du coût computationnel : le modèle de krigeage permet d'interpoler et de prédire précisément les coefficients aérodynamiques (Cz, Cx, finesse, Cpt) sur l'ensemble de l'enveloppe à partir d'un échantillonnage de simulations d'entrée restreint et optimisé (Plan d'Expériences).",
-                "Automatisation de la chaîne de calculs : développement d'un pipeline automatisé reliant la génération de géométrie paramétrique sous 3DEXPERIENCE, le maillage et le lancement autonome des simulations CFD sous ANSYS Fluent pour alimenter la base de données d'apprentissage.",
-                "Validation et réentraînement itératif : validation croisée systématique des résultats du modèle face à des calculs CFD de vérification, puis réentraînement ciblé de la méthode dans les zones à fort gradient pour maximiser la fidélité prédictive.",
-                "Optimisation de forme et analyse de sensibilité : exploitation de l'aéro-map pour synthétiser des formes d'aileron optimisées et isoler avec précision l'influence de chaque variable clé (cambrure des profils, angle d'incidence, hauteur avant / front ride height / effet de sol, fentes et décalages multi-éléments)."
+                "<strong>Gain de temps de calcul :</strong> Interpolation précise des coefficients aérodynamiques (Cz, Cx, L/D, Cpt) sur l'ensemble du domaine à partir d'un échantillonnage optimisé (DoE), réduisant de plus de 80% le besoin de calculs lourds.",
+                "<strong>Optimisation de forme :</strong> Exploration continue des paramètres géométriques clés : lois de cambrure des profils, angle d'incidence des flaps, garde au sol avant (effet de sol) et gestion des fentes (slots & overlap).",
+                "<strong>Validation croisée & réentraînement :</strong> Comparaison des prédictions à des points de contrôle haute fidélité ANSYS Fluent pour réentraîner le modèle sur les zones à plus forte incertitude."
+            ],
+
+            workflowPres: "Dans un souci d'efficacité et de répétabilité, nous avons automatisé la chaîne numérique liant la géométrie à l'analyse de données.",
+
+            workflowBullets: [
+                "<strong>Pipeline automatisé CAO ➔ Maillage ➔ Solveur Fluent :</strong> Scripting Python orchestrant la mise à jour géométrique CAO, le maillage fluide adapté (y+ ≈ 1) et l'exécution des calculs sous ANSYS Fluent.",
+                "<strong>Application de génération de profils :</strong> Outil Python développé avec assistance d'IA pour tracer, lisser et exporter des coordonnées de profils performants.",
+                "<strong>Post-traitement automatisé :</strong> Scripts Python extrayant automatiquement les polaires d'efforts, les cartographies de pression totale Cpt à 1 m en aval et la structure du sillage latéral (outwash)."
             ],
 
             metricsBullets: [
-                "Finesse aérodynamique globale : optimisation continue du compromis entre coefficient de traînée Cx et coefficient de portance/appui Cz sur l'ensemble du domaine d'assiette.",
-                "Sensibilité à la hauteur de caisse avant (Front Ride Height) : cartographie de l'effet de sol, des gradients d'appui et du risque de décollement à faible garde au sol.",
-                "Coefficient de pression totale Cpt (mesuré à 1 mètre en aval) : caractérisation des pertes de charge et de l'énergie cinétique restante de l'écoulement.",
-                "Position du sillage sur l'axe latéral (Y) : optimisation de l'endplate afin de maximiser l'effet d'outwash et de dévier le flux d'air perturbé en dehors de la roue avant."
+                "Finesse aérodynamique globale (L/D) : compromis traînée Cx et appui Cz sur l'ensemble de l'assiette.",
+                "Sensibilité à la hauteur de caisse avant : cartographie de l'effet de sol et des gradients d'appui à faible garde au sol.",
+                "Coefficient de pression totale Cpt (mesuré à 1 m en aval) : caractérisation des pertes de charge et du sillage.",
+                "Structure du sillage latéral (sidewash / outwash) : optimisation de l'endplate pour dévier l'air turbulent hors des roues avant."
             ],
 
             skillsAndTools: [
-                "Aéro-mapping & Méthode de krigeage : interpolation spatiale, régression par processus gaussiens et métamodèles prédictifs.",
-                "Automatisation & Scripting : automatisation de la chaîne numérique CAO-CFD et traitement de données.",
-                "3DEXPERIENCE (3DX) : modélisation surfacique paramétrique (Generative Shape Design) de l'aileron complet.",
-                "Suite ANSYS (Fluent) : maillage et solveurs CFD haute fidélité pour la simulation numérique des écoulements fluides.",
-                "Structuration de projet F1 & Réglementation FIA : méthodologie d'ingénierie appliquée en écurie et respect du cadre réglementaire technique."
+                "Aéro-mapping & Krigeage (Processus Gaussiens & DoE)",
+                "Automatisation de workflow Python (CAO-CFD-Post-traitement)",
+                "3DEXPERIENCE (Modélisation surfacique paramétrique 2D/3D)",
+                "Suite ANSYS Fluent (Maillage y+ ≈ 1, k-ω SST)",
+                "Réglementation FIA Formule 1 & Méthodologie BE"
             ],
 
             pdfLinkText: "📄 Consulter la Présentation Technique F1 (PDF)",
@@ -510,45 +522,48 @@ const notebooksData = {
         },
         en: {
             title: "F1 Front Wing Design & CFD Study",
-            subtitle: "Aerodynamic Engineering Duo Project (Jules COUPRIE & Tom CORBETT)",
+            subtitle: "Aerodynamic Engineering Personal Project (May 2026 - Present)",
             badgeTag: "F1 FRONT WING TECHNICAL DOSSIER",
             isCustomF1Layout: true,
             
-            generalPres: "Aerodynamic engineering project conducted in collaboration with Tom CORBETT (ESTACA engineering student, experience at Williams F1 Racing).",
-
-            mentorsText: "Project conducted under the technical guidance of Louis GUIDET (Aerodynamicist at Alpine F1) and supported by expert professors from ONERA (French National Aerospace Research Center).",
+            generalPres: "High-fidelity aerodynamic engineering project conducted in collaboration with Tom CORBETT (ESTACA engineering student, experience at Williams F1 Racing), with technical guidance from Louis GUIDET (Aerodynamicist at Alpine F1 Team) and faculty support from ONERA and ESTACA. Grounded in FIA Formula 1 technical regulations and design office practices, while maintaining exploration freedom on aerodynamic concepts.",
 
             objectivesBullets: [
-                "Gain deep insight into complex aerodynamic CFD phenomena applied to a multi-element Formula 1 front wing.",
-                "Develop an aerodynamic mapping based on Kriging surrogate modeling (Gaussian Process Regression) for interpolation and predictive analysis.",
-                "Automate the simulation workflow (parametric 3DX CAD, automated meshing, and batch CFD solver runs in ANSYS Fluent) to autonomously generate input training data.",
-                "Validate surrogate model predictions against high-fidelity CFD simulations and iteratively retrain the algorithm to converge on optimized wing geometries.",
-                "Quantify the aerodynamic sensitivity and precise influence of key design variables (camber distribution, angle of attack, front ride height, multi-element slots).",
-                "Master professional engineering workflows, F1 project structuring, and FIA regulatory compliance applied in race team design offices."
+                "Gain deep insight into complex aerodynamic phenomena governing a modern multi-element Formula 1 front wing (k-ω SST model, boundary layer refinement y+ ≈ 1).",
+                "Build a complete parametric CAD model in 3DEXPERIENCE and conduct iterative CFD simulations in ANSYS Fluent (from 2D airfoils to complete 3D wing).",
+                "Deploy an aerodynamic mapping based on Kriging (Gaussian Process Regression) to map the design space, optimize shapes, and drastically reduce computational cost.",
+                "Automate the end-to-end CAD-to-CFD computational workflow using Python scripting and a custom AI-assisted airfoil generation application."
             ],
 
-            aeroMappingPres: "To explore an extensive multi-parameter design envelope without incurring the prohibitive computational cost of hundreds of full Navier-Stokes CFD simulations, we develop an aerodynamic mapping based on Kriging. This spatial interpolation and surrogate modeling method accurately predicts global aerodynamic behavior while substantially reducing the total number of simulations required.",
+            aeroMappingPres: "To explore an extensive design space without incurring the prohibitive cost of hundreds of full 3D Navier-Stokes simulations, we deploy an aerodynamic surrogate model based on Kriging. This spatial interpolation model evaluates global aerodynamic behavior while substantially reducing computational budget.",
 
             aeroMappingBullets: [
-                "Drastic computational cost reduction: Kriging accurately interpolates and predicts aerodynamic responses (Cz, Cx, L/D efficiency, total pressure loss Cpt) across the entire continuous parameter space from an optimized, compact set of training CFD simulations (Design of Experiments).",
-                "Simulation pipeline automation: scripted workflow coupling parametric 3D CAD modeling in 3DEXPERIENCE, automated meshing, and autonomous batch CFD solver runs in ANSYS Fluent to generate training datasets.",
-                "Model validation and iterative retraining: systematic benchmarking of surrogate predictions against CFD check-points, with adaptive retraining in steep-gradient flow regimes to guarantee high surrogate accuracy.",
-                "Shape optimization & sensitivity analysis: leveraging the aero map to synthesize optimized wing configurations and isolate the exact physical effect of each parameter (profile camber, angle of attack, front ride height / ground clearance, multi-element slot gap and overlap)."
+                "<strong>Massive Compute Time Savings :</strong> Accurate prediction and interpolation of aerodynamic coefficients (Cz, Cx, L/D, Cpt) across the envelope from an optimized sample (DoE), cutting heavy solver demand by over 80%.",
+                "<strong>Continuous Shape Optimization :</strong> Exploring design variables continuously: camber distributions, flap angles of attack, front ride height (ground effect sensitivity), and multi-element slot gaps and overlaps.",
+                "<strong>Cross-Validation & Adaptive Retraining :</strong> Benchmarking surrogate predictions against high-fidelity ANSYS Fluent check-points to retrain the algorithm in higher-uncertainty regimes."
+            ],
+
+            workflowPres: "To ensure repeatability and industrial-grade throughput, we automated the numerical pipeline linking CAD geometry to CFD results.",
+
+            workflowBullets: [
+                "<strong>Automated CAD ➔ Meshing ➔ Fluent Pipeline :</strong> Python scripting coordinating parametric CAD geometry updates, wall-resolved boundary layer meshing (y+ ≈ 1), and batch Fluent solver runs.",
+                "<strong>AI-Assisted Airfoil Generation Tool :</strong> Custom Python application developed with AI assistance to generate, smooth, and parameterize airfoil coordinates prior to simulation.",
+                "<strong>Automated Post-Processing :</strong> Routines automatically extracting force polars, 1-meter downstream total pressure loss maps (Cpt), and wake deflection (outwash)."
             ],
 
             metricsBullets: [
-                "Overall Aerodynamic Efficiency (L/D): continuous optimization of the trade-off between drag coefficient Cx and downforce coefficient Cz across the complete aero map.",
-                "Front Ride Height Sensitivity: mapping ground-effect dynamics, downforce variations, and stall margins across operational ride heights.",
-                "Total Pressure Coefficient Cpt (measured 1 m downstream): tracking pressure losses and residual kinetic energy in the airflow.",
-                "Lateral wake trajectory (Y-axis): optimizing endplate geometry to deflect turbulent dirty air away from the front tires (outwash effect)."
+                "Overall Aerodynamic Efficiency (L/D): continuous optimization of drag Cx vs. downforce Cz across the aero map.",
+                "Front Ride Height Sensitivity: mapping ground-effect dynamics and downforce gradients at low ground clearances.",
+                "Total Pressure Coefficient Cpt (1 m downstream): tracking wake energy and total pressure losses.",
+                "Lateral wake deflection (sidewash / outwash): optimizing endplate geometry to route turbulent air away from front wheels."
             ],
 
             skillsAndTools: [
-                "Aero Mapping & Kriging Method: Gaussian process regression, spatial interpolation, and predictive surrogate modeling.",
-                "Pipeline Automation & Scripting: automated CAD-to-CFD computational workflows and data post-processing.",
-                "3DEXPERIENCE (3DX): parametric surface CAD modeling (Generative Shape Design) of the multi-element wing assembly.",
-                "ANSYS Suite (Fluent): advanced CFD meshing and high-fidelity solvers for aerodynamic simulation.",
-                "Formula 1 Project Structuring & FIA Regulations: motorsport design office workflows and technical regulatory compliance."
+                "Aero Mapping & Kriging (Gaussian Process Regression & DoE)",
+                "Python Numerical Automation (CAD-CFD-Post-Processing)",
+                "3DEXPERIENCE (Parametric Surface CAD Modeling 2D/3D)",
+                "ANSYS Suite (Fluent, y+ ≈ 1 meshing, k-ω SST)",
+                "FIA Formula 1 Regulations & Design Office Practices"
             ],
 
             pdfLinkText: "📄 View F1 Technical Presentation (PDF)",
@@ -717,65 +732,83 @@ const notebooksData = {
     },
     4: {
         fr: {
-            title: "Stage Chercheur : Simulation CFD d'une Pompe Péristaltique",
-            subtitle: "Université ČVUT de Prague (Laboratoire de Recherche, Juillet à Août 2026)",
+            title: "Stage Chercheur : Simulation FSI & Optimisation d'une Pompe Péristaltique",
+            subtitle: "Université ČVUT de Prague (Laboratoire de Recherche, Juin à Août 2026)",
             badgeTag: "STAGE CHERCHEUR ČVUT PRAGUE",
             ndaNote: "Note de Confidentialité : Travail soumis à un accord de confidentialité (NDA) signé avec l'entreprise partenaire.",
-            subjectText: "Sujet de recherche : <em>Simulation and initial design of peristaltic pump</em>. Modélisation 3D CAO, analyse CFD d'écoulements internes et simulation couplée fluide-structure (FSI) d'une pompe péristaltique sous la suite ANSYS.",
+            subjectText: "Sujet de recherche : <em>Simulation and initial design of peristaltic pump</em>. Modélisation 3D CAO sous 3DEXPERIENCE, analyse CFD d'écoulements internes et simulation couplée fluide-structure bidirectionnelle (2-way FSI) sous la suite ANSYS (Fluent, Mechanical & System Coupling).",
             
+            researchContribTitle: "Bilan des travaux & démarche réalisée",
+            researchContribBullets: [
+                "<strong>Modélisation couplée fluide-structure (2-way FSI) :</strong> Mise en œuvre d'un couplage sous ANSYS System Coupling entre les solveurs Fluent (écoulement interne) et Mechanical (déformation élastique du tube) pour observer le comportement transitoire de la pompe.",
+                "<strong>Gestion du remaillage dynamique :</strong> Paramétrage des méthodes de Dynamic Remeshing sous Fluent afin d'éviter l'écrasement critique des mailles lors de l'occlusion complète du tube élastomère.",
+                "<strong>Extraction et traitement des données :</strong> Développement de scripts Python pour tracer les courbes de débit volumique instantané et caractériser les reflux (backflow).",
+                "<strong>Restitution technique :</strong> Présentation des méthodologies et des résultats en anglais devant l'équipe de recherche du laboratoire."
+            ],
+
             skillsCFD: [
-                "CFD Interne & Maillage Dynamique : Maîtrise des techniques de remaillage automatique (Dynamic Meshes & Remeshing) pour suivre les déformations géométriques de la conduite sous la pression des galets.",
-                "Qualité & Précision du Maillage : Application rigoureuse des critères de qualité du maillage.",
-                "Optimisation du Maillage : Ajustement stratégique de la densité du maillage pour concilier précision physique et gain significatif en temps de calcul."
+                "Couplage FSI Bidirectionnel (2-Way) : Intégration multiphysique sous ANSYS System Coupling entre les solveurs Fluent et Mechanical.",
+                "CFD Interne & Maillage Dynamique : Maîtrise des algorithmes de remaillage automatique (Dynamic Meshes) s'adaptant aux déformations du tube.",
+                "Post-traitement Avancé Python : Développement de scripts sous PyCharm et ParaView pour le calcul de débit volumique et de reflux."
             ],
             skillsGeneral: [
-                "Modélisation 3D CAO (CAD) : Conception géométrique initiale de la pompe péristaltique.",
-                "Programmation Python : Codage sous PyCharm pour le post-traitement.",
-                "Communication & Présentation Orale : Préparation et soutenance technique en anglais devant un jury de doctorants et maîtres de stage."
+                "Modélisation 3D CAO Paramétrique : Conception géométrique initiale de la pompe sous 3DEXPERIENCE.",
+                "Programmation Python & Automatisation : Codage sous PyCharm pour le traitement de données CFD.",
+                "Communication & Soutenance en Anglais : Présentation technique des résultats devant un jury de chercheurs et maîtres de stage."
             ],
 
             softwareList: [
                 "ANSYS Fluent (Solveur CFD)",
-                "ANSYS Mechanical & System Coupling (FSI — Couplage Fluide-Structure)",
-                "ParaView (Post-traitement des écoulements)",
-                "PyCharm (Post-traitement Python)"
+                "ANSYS Mechanical (Solveur Structure)",
+                "ANSYS System Coupling (Couplage 2-Way FSI)",
+                "3DEXPERIENCE (3DX - CAO Paramétrique)",
+                "ParaView & PyCharm (Post-traitement Python)"
             ],
 
             others: {
-                difficulties: "Problématiques complexes de maillage (meshing) et de convergence des calculs générées par les déformations importantes des matériaux lors des simulations multidomaines (FSI).",
-                visits: "Visites guidées des centres de recherche aéronautique et spatiale de Prague, ainsi que des bancs d'essai de turbopropulseurs et turboréacteurs (applications militaires et commerciales)."
+                difficulties: "Problématiques complexes d'écrasement quasi-total de la veine fluide générant de fortes distorsions de maillage, résolues par un remaillage dynamique adaptatif fin.",
+                visits: "Visites guidées des centres de recherche aérospatiale tchèques (VZLU) et bancs d'essai de turbomoteurs civils et militaires à Prague."
             },
 
             photoGallery: false
         },
         en: {
-            title: "Research Intern: CFD Simulation of Peristaltic Pump",
-            subtitle: "ČVUT University of Prague (Research Laboratory, July to August 2026)",
+            title: "Research Intern: FSI Simulation & Optimization of a Peristaltic Pump",
+            subtitle: "ČVUT University of Prague (Research Laboratory, June to August 2026)",
             badgeTag: "RESEARCH INTERNSHIP ČVUT PRAGUE",
             ndaNote: "Confidentiality Notice: Work subject to a Non-Disclosure Agreement (NDA) signed with the corporate partner.",
-            subjectText: "Research Topic: <em>Simulation and initial design of peristaltic pump</em>. 3D CAD modeling, internal CFD flow analysis, and Fluid-Structure Interaction (FSI) simulations using the ANSYS Suite.",
+            subjectText: "Research Topic: <em>Simulation and initial design of peristaltic pump</em>. 3D CAD modeling in 3DEXPERIENCE, internal CFD flow analysis, and two-way Fluid-Structure Interaction (FSI) simulations using the ANSYS Suite (Fluent, Mechanical & System Coupling).",
             
+            researchContribTitle: "Summary of Work & Methodology",
+            researchContribBullets: [
+                "<strong>Two-way FSI Coupling:</strong> Configuring a coupled fluid-structure interaction simulation with ANSYS System Coupling (Fluent for internal flow and Mechanical for elastomer tube deformation) to analyze transient pump dynamics.",
+                "<strong>Dynamic Remeshing Configuration:</strong> Setting up adaptive remeshing parameters in Fluent to prevent cell distortion and negative volumes during complete tube occlusion.",
+                "<strong>Data Extraction & Post-Processing:</strong> Developing Python scripts in PyCharm to evaluate instantaneous flow rates and identify backflow phenomena.",
+                "<strong>Technical Presentation:</strong> Documenting methodologies and presenting findings in English to the laboratory research team."
+            ],
+
             skillsCFD: [
-                "Internal CFD & Dynamic Meshing: Automated remeshing algorithms (Dynamic Meshes & Remeshing) tracking hose wall squeeze deformations.",
-                "Mesh Quality & Accuracy: Strict adherence to mesh quality criteria.",
-                "Mesh Optimization: Strategic mesh density adjustment balancing physical fidelity with CPU time savings."
+                "Two-Way FSI Coupling: Multiphysics co-simulation using ANSYS System Coupling between Fluent and Mechanical solvers.",
+                "Internal CFD & Dynamic Remeshing: Mastering automated remeshing algorithms tracking severe transient geometry changes.",
+                "Advanced Python Post-Processing: Custom PyCharm/ParaView scripts to extract flow rate, backflow, and shear rates."
             ],
             skillsGeneral: [
-                "3D CAD Modeling: Initial geometric design (CAD) of the peristaltic pump.",
-                "Python Scripting: Post-processing code developed in PyCharm.",
-                "Oral Defense: Final technical presentation delivered in English before PhD researchers and advisors."
+                "Parametric 3D CAD Modeling: Initial geometric design in 3DEXPERIENCE.",
+                "Python Scripting: Automated post-processing pipelines developed in PyCharm.",
+                "Oral Defense in English: Research presentation and technical discussion before PhD advisors and researchers."
             ],
 
             softwareList: [
                 "ANSYS Fluent (CFD Solver)",
-                "ANSYS Mechanical & System Coupling (FSI — Fluid-Structure Interaction)",
-                "ParaView (Flow Post-processing)",
-                "PyCharm (Python Post-processing)"
+                "ANSYS Mechanical (Structural FEA Solver)",
+                "ANSYS System Coupling (2-Way FSI)",
+                "3DEXPERIENCE (3DX Parametric CAD)",
+                "ParaView & PyCharm (Python Post-processing)"
             ],
 
             others: {
-                difficulties: "Complex meshing issues and solver convergence challenges caused by severe material deformations during FSI simulations.",
-                visits: "Guided tours of Prague aerospace and space research centers, as well as turboprop & turbojet engine test rigs (military & commercial applications)."
+                difficulties: "Complex meshing challenges under near-total fluid channel pinch-off, successfully resolved via customized adaptive remeshing laws.",
+                visits: "Technical visits to Czech aerospace research institutes (VZLU) and turboprop/turbojet engine test benches in Prague."
             },
 
             photoGallery: false
@@ -803,31 +836,51 @@ function openProjectModal(id) {
 
                 <div class="notebook-modal-single-flow" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1.6rem;">
                     
+                    <!-- Galerie photos F1 (non-cliquables, affichage épuré) -->
+                    <div class="f1-photos-simple">
+                        <div class="f1-photo-frame">
+                            <img src="assets/f1_cad_front_wing.png" alt="Aileron avant F1 - CAO 3D">
+                        </div>
+                        <div class="f1-photo-frame">
+                            <img src="assets/f1_cfd_pressure_contour.jpg" alt="Aileron avant F1 - CFD 2D">
+                        </div>
+                    </div>
+                    <div style="font-size: 0.78rem; color: var(--text-muted); font-style: italic; text-align: center; margin-top: -0.3rem; margin-bottom: 0.3rem;">
+                        <i class="fa-solid fa-circle-info"></i> ${currentLang === 'fr' ? 'Visuels exploratoires en cours de projet (non représentatifs du résultat final).' : 'Exploratory working visuals (non-final results).'}
+                    </div>
+
                     <div class="modal-flow-section">
-                        <h4 class="notebook-section-h4">${currentLang === 'fr' ? 'Présentation générale' : 'General Overview'}</h4>
+                        <h4 class="notebook-section-h4">${currentLang === 'fr' ? 'Présentation générale & Encadrement' : 'General Overview & Mentorship'}</h4>
                         <p class="notebook-p">${data.generalPres}</p>
                     </div>
 
                     <div class="modal-flow-section">
-                        <h4 class="notebook-section-h4">${currentLang === 'fr' ? 'Encadrement et aide' : 'Mentorship & Support'}</h4>
-                        <p class="notebook-p">${data.mentorsText}</p>
-                    </div>
-
-                    <div class="modal-flow-section">
-                        <h4 class="notebook-section-h4">${currentLang === 'fr' ? 'Objectif de ce projet' : 'Project Objectives'}</h4>
+                        <h4 class="notebook-section-h4">${currentLang === 'fr' ? 'Objectifs du projet' : 'Project Objectives'}</h4>
                         <ul class="notebook-ul">
                             ${data.objectivesBullets.map(b => `<li>${b}</li>`).join('')}
                         </ul>
                     </div>
 
                     ${data.aeroMappingPres ? `
-                    <div class="modal-flow-section" style="background: rgba(2, 132, 199, 0.04); border: 1.5px solid rgba(2, 132, 199, 0.25); border-radius: 10px; padding: 1.25rem;">
-                        <h4 class="notebook-section-h4" style="color: var(--accent-blue); display: flex; align-items: center; gap: 8px; margin-bottom: 0.6rem;">
+                    <div class="modal-flow-section">
+                        <h4 class="notebook-section-h4" style="display: flex; align-items: center; gap: 8px;">
                             <i class="fa-solid fa-chart-line"></i> ${currentLang === 'fr' ? 'Aéro-mapping & Méthode de Krigeage' : 'Aero Mapping & Kriging Surrogate Model'}
                         </h4>
-                        <p class="notebook-p" style="margin-bottom: 0.85rem;">${data.aeroMappingPres}</p>
+                        <p class="notebook-p" style="margin-bottom: 0.75rem;">${data.aeroMappingPres}</p>
                         <ul class="notebook-ul">
                             ${data.aeroMappingBullets.map(m => `<li>${m}</li>`).join('')}
+                        </ul>
+                    </div>
+                    ` : ''}
+
+                    ${data.workflowPres ? `
+                    <div class="modal-flow-section">
+                        <h4 class="notebook-section-h4" style="display: flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-gears"></i> ${currentLang === 'fr' ? 'Optimisation du Workflow & Automatisation' : 'Workflow Optimization & Automation'}
+                        </h4>
+                        <p class="notebook-p" style="margin-bottom: 0.75rem;">${data.workflowPres}</p>
+                        <ul class="notebook-ul">
+                            ${data.workflowBullets.map(w => `<li>${w}</li>`).join('')}
                         </ul>
                     </div>
                     ` : ''}
@@ -841,8 +894,8 @@ function openProjectModal(id) {
 
                     <div class="modal-flow-section">
                         <h4 class="notebook-section-h4">${currentLang === 'fr' ? 'Compétences et logiciels visés' : 'Skills & Software Mastered'}</h4>
-                        <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.4rem;">
-                            ${data.skillsAndTools.map(st => `<div class="skill-pill" style="font-size: 0.95rem;"><i class="fa-solid fa-check" style="color: var(--accent-cyan);"></i> <span>${st}</span></div>`).join('')}
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.5rem;">
+                            ${data.skillsAndTools.map(st => `<span class="skill-pill" style="font-weight: 500;"><i class="fa-solid fa-check"></i> ${st}</span>`).join('')}
                         </div>
                     </div>
 
@@ -1090,6 +1143,17 @@ function openProjectModal(id) {
                         <p class="notebook-p">${data.others.visits}</p>
                     </div>
                 </div>
+
+                ${data.researchContribBullets ? `
+                <div class="modal-flow-section">
+                    <h4 class="notebook-section-h4" style="display: flex; align-items: center; gap: 8px;">
+                        <i class="fa-solid fa-clipboard-check"></i> ${data.researchContribTitle || (currentLang === 'fr' ? 'Bilan des travaux & démarche réalisée' : 'Summary of Work & Methodology')}
+                    </h4>
+                    <ul class="notebook-ul">
+                        ${data.researchContribBullets.map(b => `<li>${b}</li>`).join('')}
+                    </ul>
+                </div>
+                ` : ''}
 
             </div>
         </div>
